@@ -15,8 +15,12 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme"
         tools:ignore="AllowBackup,GoogleAppIndexingWarning">
-        <activity android:name=".server.ServerActivity"></activity>
-        <activity android:name=".client.ClientActivity" />
+        <activity
+            android:name=".server.ServerActivity"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".client.ClientActivity"
+            android:parentActivityName=".MainActivity" />
         <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

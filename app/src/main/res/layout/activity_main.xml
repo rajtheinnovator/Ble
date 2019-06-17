@@ -25,7 +25,7 @@
         android:layout_gravity="center_horizontal"
         android:layout_marginTop="24dp"
         android:background="@null"
-        android:text="Act as Client"
+        android:text="Act as Server"
         android:textAllCaps="false" />
 
 </LinearLayout>
